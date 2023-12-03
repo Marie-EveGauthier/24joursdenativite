@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    --color-text: 36deg 5% 36%;
+    --color-action: 2deg 94% 69%;
+    --color-primary: 186deg 45% 36%;
+    --color-primary-lighter: 186deg 45% 90%;
+    --color-secondary: 111deg 18% 86%;
+    --color-tertiary: 190deg 22% 98%;
+
+    --button-color: {
+      '50': 'hsl(173, 47%, 96%)',
+        '100': 'hsl(180, 47%, 90%)',
+        '200': 'hsl(180, 46%, 82%)',
+        '300': 'hsl(181, 46%, 69%)',
+        '400': 'hsl(182, 43%, 53%)',
+        '500': 'hsl(183, 47%, 43%)',
+        '600': 'hsl(186, 45%, 36%)',
+        '700': 'hsl(188, 41%, 31%)',
+        '800': 'hsl(189, 35%, 27%)',
+        '900': 'hsl(191, 32%, 24%)',
+        '950': 'hsl(192, 39%, 15%)',
+    }
+  }
+}

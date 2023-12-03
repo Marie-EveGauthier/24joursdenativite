@@ -12,6 +12,13 @@ export default {
     extend: {
       colors: {
         // light mode
+        text: 'hsl(var(--color-text))',
+        action: 'hsl(var(--color-action))',
+        primary: 'hsl(var(--color-primary))',
+        primarylighter: 'hsl(var(--color-primary-lighter))',
+        secondary: 'hsl(var(--color-secondary))',
+        tertiary: 'hsl(var(--color-tertiary))',
+
         tremor: {
           brand: {
             faint: '#eff6ff', // blue-50
@@ -57,7 +64,7 @@ export default {
       },
       fontSize: {
         'tremor-label': '0.75rem',
-        'tremor-default': ['0.875rem', { lineHeight: '1.25rem' }],
+        'tremor-default': ['1rem', { lineHeight: '1.75rem' }],
         'tremor-title': ['1.125rem', { lineHeight: '1.75rem' }],
         'tremor-metric': ['1.875rem', { lineHeight: '2.25rem' }]
       }
