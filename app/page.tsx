@@ -58,10 +58,17 @@ export default async function IndexPage({
         Es-tu prêt à les découvrir ?
       </Text>
 
+      {/* TODO
+verify if session 
+
+YES : go to calendrier
+NO : go to register (ask if already created a user > go to log in)
+
+
+*/}
       <div className='flex justify-center'>
         <Link href='/register' className="py-3 px-6 rounded-lg text-white bg-primary  transition ease-in-out delay-150 hover:text-lg hover:text-primary hover:bg-primarylighter duration-300">
           Oui!
-
         </Link>
 
 
